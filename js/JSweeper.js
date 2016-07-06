@@ -1,6 +1,6 @@
-var Minsesweeper = Minsesweeper || function(){};
+var JSweeper = JSweeper || function(){};
 
-Minsesweeper = (function() {
+JSweeper = (function() {
   var Settings = {
     easy: {x: 8, y: 8, mines: 10},
     mid: {x: 16, y: 16, mines: 40},
@@ -293,5 +293,5 @@ Minsesweeper = (function() {
 }());
 
 (function() {
-  Minsesweeper.init();
+  JSweeper.init();
 })();
